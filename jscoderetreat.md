@@ -1,35 +1,45 @@
+#Super awesome hyper dimensional match Four!
 
-1. Building up dev environment (10m)
-    1. Setup github repo
-    2. Install Browser sync
-    3. Install jasmine testing framework
+
+### Goal of the project: create a  match 4 game playable in real time
+
+
+
 
 2. Milestones
 
-    1. Minimum Viable Game (Total: 4h 30m man/hours)
+    1. Minimum Viable Game (Total: 5 man/hours)
+        
         - complete game allowing two human players to play
         - no animations in the view
         - start - play - win/draw states 
         - jquery and css for view, and plain js for logic
+        -  Building up dev environment
         
 
     2. Player Vs Machine (rough estimation: 2 days)
         - Research and Implement IA
         - Animations and UI polish
 
-    3. Future improvements (not estimated)
+    3. Future improvements if the MVP works (not estimated)
+        4. Real time PvP multiplayer!
         1. Add Animations / better ui
         2. Choose player name
         3. Choose player color
         4. IA difficulty
         5. Different board sizes / different win conditions (3-match, 5-match)
-        6. Real time PvP multiplayer!
-    
-     
+        6. Scores and leaderboards
+
 
 
 Minimum Viable Game splitted work
 ---
+
+**Building up dev environment** (30m)
+
+  1. Setup git repo (GitHub)
+  2. Segup local dev server (Browser sync)
+  3. Setup testing framework (jasmine)
 
 **Model** 2h
 
