@@ -1,6 +1,6 @@
-var Model = function() {
+function Model() {
 
-    var board = [
+    this.board = [
         [0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0],
@@ -9,15 +9,18 @@ var Model = function() {
         [0,0,0,0,0,0,0],
     ];
 
-    var insertChip = function(column, color) {
+    this.insertChip = function(column, color) {
 
     };
 
-    var checkWinner = function(position) {
+    this.checkWinner = function(position) {
 
     };
 
-    var checkFull = function() {
-
+    this.checkFull = function() {
+        return false;
     };
 };
+
+
+module.exports = Model;
